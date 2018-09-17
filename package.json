@@ -8,10 +8,21 @@
     "node": ">=6.13.0"
   },
   "scripts": {
+    "react-dev": "webpack -d --watch"
   },
   "dependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "nodemon": "^1.18.4",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "styled-components": "^3.4.6",
+    "webpack": "^4.19.0"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "webpack-cli": "^3.1.0"
   }
 }
