@@ -89,9 +89,8 @@ const EditIcon = styled.span`
   margin-right: 4px;
 `
 
-class Map extends React.Component {
+const Map = props =>  {
 
-  render() {
     return (
     <MapboxContainer>
       {/* Google maps requires you to input your credit card to use their api, so i used a picture instead */}
@@ -140,7 +139,6 @@ class Map extends React.Component {
       </AddressBox>
     </MapboxContainer>
     );
-  }
 }
 
 export default Map;
