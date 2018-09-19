@@ -14,7 +14,7 @@ const Mapbox = styled.img`
   width: 286px;
   height: 135px;
   border: solid 1px;
-  background: url("hackreactormap.png")   
+  background: url("https://s3-us-west-1.amazonaws.com/hrsf102header/map+/hackreactormap.PNG")   
 `;
 
 const AddressBox = styled.div`
